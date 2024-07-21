@@ -1,0 +1,13 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a; /* Dark background */
+  }
+  
+  .ant-btn-primary {
+    background-color: #1DA57A; /* Custom primary color */
+    border-color: #1DA57A;
+  }
+  
