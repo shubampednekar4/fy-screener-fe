@@ -8,9 +8,9 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/auth-handler" element={<AuthHandler />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
-        <Route path='/' element={<Dashboard />} />
+        <Route path='/' element={<AuthHandler />} />
       </Routes>
     </Router>
   );

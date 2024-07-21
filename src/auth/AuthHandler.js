@@ -23,7 +23,7 @@ const AuthHandler = () => {
             description: 'You have been successfully logged in.',
             placement: 'topRight'
           });
-        navigate('/')}
+        navigate('/dashboard')}
         }) // Replace '/dashboard' with the actual route to your dashboard
         .catch(error => {
             if (error.response && error.response.status === 401) {
